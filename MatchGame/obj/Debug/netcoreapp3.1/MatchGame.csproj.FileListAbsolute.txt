@@ -1,0 +1,14 @@
+/home/michael/RiderProjects/Match/MatchGame/bin/Debug/netcoreapp3.1/MatchGame
+/home/michael/RiderProjects/Match/MatchGame/bin/Debug/netcoreapp3.1/MatchGame.deps.json
+/home/michael/RiderProjects/Match/MatchGame/bin/Debug/netcoreapp3.1/MatchGame.runtimeconfig.json
+/home/michael/RiderProjects/Match/MatchGame/bin/Debug/netcoreapp3.1/MatchGame.runtimeconfig.dev.json
+/home/michael/RiderProjects/Match/MatchGame/bin/Debug/netcoreapp3.1/MatchGame.dll
+/home/michael/RiderProjects/Match/MatchGame/bin/Debug/netcoreapp3.1/MatchGame.pdb
+/home/michael/RiderProjects/Match/MatchGame/bin/Debug/netcoreapp3.1/Match.dll
+/home/michael/RiderProjects/Match/MatchGame/bin/Debug/netcoreapp3.1/Match.pdb
+/home/michael/RiderProjects/Match/MatchGame/obj/Debug/netcoreapp3.1/MatchGame.csprojAssemblyReference.cache
+/home/michael/RiderProjects/Match/MatchGame/obj/Debug/netcoreapp3.1/MatchGame.AssemblyInfoInputs.cache
+/home/michael/RiderProjects/Match/MatchGame/obj/Debug/netcoreapp3.1/MatchGame.AssemblyInfo.cs
+/home/michael/RiderProjects/Match/MatchGame/obj/Debug/netcoreapp3.1/MatchGame.csproj.CopyComplete
+/home/michael/RiderProjects/Match/MatchGame/obj/Debug/netcoreapp3.1/MatchGame.dll
+/home/michael/RiderProjects/Match/MatchGame/obj/Debug/netcoreapp3.1/MatchGame.pdb

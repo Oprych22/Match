@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "JD7xV7TcymvT44Ilo8KkZAxEQxCJOI8glzEpvA8St/LwfmmHTG0CGVUzTL+vJyfcifzeVqxcqzE/ec5zTc1+dg==",
+  "success": true,
+  "projectFilePath": "/home/michael/RiderProjects/Match/Match/Match.csproj",
+  "expectedPackageFiles": [
+    "/home/michael/.nuget/packages/microsoft.aspnetcore.app.ref/3.1.8/microsoft.aspnetcore.app.ref.3.1.8.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,8 @@
+/home/michael/RiderProjects/Match/Match/bin/Debug/netcoreapp3.1/Match.deps.json
+/home/michael/RiderProjects/Match/Match/bin/Debug/netcoreapp3.1/Match.dll
+/home/michael/RiderProjects/Match/Match/bin/Debug/netcoreapp3.1/Match.pdb
+/home/michael/RiderProjects/Match/Match/obj/Debug/netcoreapp3.1/Match.csprojAssemblyReference.cache
+/home/michael/RiderProjects/Match/Match/obj/Debug/netcoreapp3.1/Match.AssemblyInfoInputs.cache
+/home/michael/RiderProjects/Match/Match/obj/Debug/netcoreapp3.1/Match.AssemblyInfo.cs
+/home/michael/RiderProjects/Match/Match/obj/Debug/netcoreapp3.1/Match.dll
+/home/michael/RiderProjects/Match/Match/obj/Debug/netcoreapp3.1/Match.pdb
