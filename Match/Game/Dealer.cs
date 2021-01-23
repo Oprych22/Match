@@ -5,7 +5,7 @@ namespace Match.Game
 {
     public class Dealer: IDealer
     {
-        private Deck _deck;
+        private IDeck _deck;
 
         public Dealer(int packs)
         {
@@ -19,12 +19,12 @@ namespace Match.Game
         
         public Card Deal()
         {
-            return _deck.Pop();
+            return _deck.NextCard();
         }
 
         public bool PeekAtDeck()
         {
-            return _deck.Count > 0;
+            return _deck.CardCount() > 0;
         }
     }
 }

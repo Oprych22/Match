@@ -5,5 +5,7 @@ namespace Match.Game
         public void Shuffle();
 
         public Card Deal();
+
+        public bool PeekAtDeck();
     }
 }

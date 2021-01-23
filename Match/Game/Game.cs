@@ -7,9 +7,9 @@ namespace Match.Game
     {
         private readonly IMatchCondition _matchCondition;
         private readonly Random _rdm;
-        private readonly Dealer _dealer;
-        private readonly Player _player1;
-        private readonly Player _player2;
+        private readonly IDealer _dealer;
+        private readonly IPlayer _player1;
+        private readonly IPlayer _player2;
 
         public Game(IMatchCondition matchCondition, int decks)
         {
@@ -34,7 +34,7 @@ namespace Match.Game
             {
                 var card = _dealer.Deal();
                 cards.Add(card);
-                if (_matchCondition.Match(lastCard, card))
+                if (_matchCondition.IsMatch(lastCard, card))
                 {
                     if (_rdm.Next(2) == 1)
                     {
@@ -64,11 +64,11 @@ namespace Match.Game
             Match();
             if (_player1.GetCardCount() > _player2.GetCardCount())
             {
-                Console.Out.WriteLine($"{_player1.GetName()} is the winner!");
+                Console.Out.WriteLine($"{_player1.Name} is the winner!");
             }
             else if (_player1.GetCardCount() < _player2.GetCardCount())
             {
-                Console.Out.WriteLine($"{_player2.GetName()} is the winner!");
+                Console.Out.WriteLine($"{_player2.Name} is the winner!");
             }
             else
             {

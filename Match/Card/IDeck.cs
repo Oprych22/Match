@@ -6,5 +6,9 @@ namespace Match
     {
         public void Shuffle();
 
+        public Card NextCard();
+
+        public int CardCount();
+
     }
 }

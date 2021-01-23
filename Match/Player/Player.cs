@@ -5,13 +5,14 @@ namespace Match
     public class Player : IPlayer
     {
         private readonly List<Card> _cards;
-        private readonly string _name; 
 
         public Player(string name)
         {
-            _name = name;
+            Name = name;
             _cards = new List<Card>();
         }
+
+        public string Name { get; }
         public int GetCardCount() => _cards.Count;
 
         public void GiveCards(IEnumerable<Card> cards)
@@ -19,6 +20,5 @@ namespace Match
             _cards.AddRange(cards);
         }
 
-        public string GetName() => _name;
     }
 }

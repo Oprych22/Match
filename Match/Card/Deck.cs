@@ -7,7 +7,6 @@ namespace Match
 {
     public class Deck : Stack<Card>, IDeck
     {
-        private readonly string[] _values = new[] {"Ace", "2", "3", "4", "5", "6", "7", "8", "9", "10", "J", "Q", "K"};
         public Deck(int packs)
         {
             for (var i = 0; i < packs; i++)
@@ -18,10 +17,11 @@ namespace Match
                 }
             }
         }
-        private IEnumerable<Card> GetPack()
+        private static IEnumerable<Card> GetPack()
         {
             var suits = Enum.GetValues(typeof(Suit)).Cast<Suit>();
-            return _values.SelectMany(s => Enum.GetValues(typeof(Suit)).Cast<Suit>(), (x, y) => new Card(x, y));
+            var values = Enum.GetValues(typeof(Value)).Cast<Value>();
+            return values.SelectMany(s => suits, (x, y) => new Card(x, y));
         }
 
         public void Shuffle()
@@ -35,6 +35,16 @@ namespace Match
             {
                 Push(card);
             }
+        }
+
+        public Card NextCard()
+        {
+            return Pop();
+        }
+
+        public int CardCount()
+        {
+            return Count;
         }
     }
 }

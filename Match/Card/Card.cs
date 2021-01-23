@@ -3,9 +3,9 @@ namespace Match
     public struct Card
     {
         public readonly Suit Suit { get; }
-        public readonly string Value { get; }
+        public readonly Value Value { get; }
 
-        public Card(string value, Suit suit)
+        public Card(Value value, Suit suit)
         {
             this.Value = value;
             this.Suit = suit;
@@ -21,6 +21,11 @@ namespace Match
             {
                 return false;
             }
+        }
+
+        public override int GetHashCode()
+        {
+            return Suit.GetHashCode() ^ Value.GetHashCode();
         }
     }
 }
